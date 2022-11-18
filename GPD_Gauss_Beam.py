@@ -298,7 +298,7 @@ class GUI():
         
     def enter_Direc(self):
         tk.Label(self.window, text = 'SRIM Directory').grid(row=1, column = 6)
-        self.directory = tk.StringVar(self.window, value = r'C:\Users\Frank Elson\Documents\SRIM-2013\SRIM-2013.exe')
+        self.directory = tk.StringVar(self.window, value = r'C:/Users/name/...')
         DirecEntry = tk.Entry(self.window, textvariable = self.directory)
         DirecEntry.grid(row = 1, column = 7)
     
@@ -311,7 +311,7 @@ class GUI():
     
     def enter_fig_direc(self):
         tk.Label(self.window, text = 'Enter Saving Directory').grid(row = 2, column = 6)
-        self.fig_direc = tk.StringVar(self.window, value = r'C:\Users\Frank Elson\OneDrive - KTH\Dokument\work\MuSR_Confrence\ ')
+        self.fig_direc = tk.StringVar(self.window, value = r'C:/Users/name/...')
         figentry = tk.Entry(self.window, textvariable = self.fig_direc)
         figentry.grid(row = 2, column = 7)
         
